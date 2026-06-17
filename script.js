@@ -58,13 +58,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentItem = this.parentElement;
             const isActive = currentItem.classList.contains('active');
             
-            // Закрываем все элементы
             const allItems = document.querySelectorAll('.faq-item');
             allItems.forEach(function(item) {
                 item.classList.remove('active');
             });
-            
-            // Открываем текущий, если он был закрыт
+
             if (!isActive) {
                 currentItem.classList.add('active');
             }
