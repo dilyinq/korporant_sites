@@ -1383,6 +1383,36 @@ body {
         width: 40px;
         height: 40px;
     }
+
+.cta-container {
+    grid-template-columns: 1fr;
+    position: relative;
+    padding-top: 150px; /* Место для фото сверху */
+}
+
+.cta-left {
+    min-height: auto !important;
+    z-index: 2;
+}
+
+.cta-photos {
+    position: absolute;
+    top: -80px; /* Фото выглядывает сверху */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.cta-photos-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 }
 
 @media (max-width: 375px) {
