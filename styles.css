@@ -11,7 +11,6 @@ body {
     padding: 20px;
 }
 
-/* ==================== HEADER ==================== */
 .header {
     background: white;
     border-radius: 100px;
@@ -107,7 +106,6 @@ body {
     height: 24px;
 }
 
-/* ==================== HERO ==================== */
 .hero {
     background: #FF5722;
     border-radius: 20px;
@@ -262,7 +260,6 @@ body {
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
-/* ==================== ОБЩИЕ ЗАГОЛОВКИ ==================== */
 .section-heading {
     font-family: 'Advaken Sans', 'Playfair Display', serif;
     font-size: 64px;
@@ -286,7 +283,6 @@ body {
     border-radius: 4px;
 }
 
-/* ==================== БЛОК 2: ПРАВИЛА ==================== */
 .rules-section {
     padding: 80px 60px 60px;
     display: flex;
@@ -365,7 +361,6 @@ body {
     color: #FFFFFF;
 }
 
-/* ==================== БЛОК 3: ШАГИ ==================== */
 .steps-section {
     padding: 60px 60px 80px;
     display: flex;
@@ -437,7 +432,6 @@ body {
 .step-text.dark { color: #1D1D1D; }
 .step-text.white { color: #FFFFFF; }
 
-/* ==================== БЛОК 4: FEATURES ==================== */
 .features-section {
     padding: 40px 60px;
 }
@@ -557,7 +551,6 @@ body {
     animation-delay: 2.5s;
 }
 
-/* ==================== БЛОК 5: ПОЧЕМУ ВЫБИРАЮТ ==================== */
 .why-section {
     padding: 80px 60px;
     display: flex;
@@ -616,7 +609,6 @@ body {
     opacity: 0.85;
 }
 
-/* ==================== БЛОК 6: ИСТОРИИ УСПЕХА ==================== */
 .testimonials-section {
     padding: 80px 60px;
     display: flex;
@@ -687,7 +679,6 @@ body {
     margin: 0;
 }
 
-/* ==================== БЛОК 7: CTA ==================== */
 .cta-section {
     padding: 40px 60px 80px;
 }
@@ -772,7 +763,6 @@ body {
     border-radius: 20px;
 }
 
-/* ==================== БЛОК 8: FAQ ==================== */
 .faq-section {
     padding: 80px 60px;
     display: flex;
@@ -846,7 +836,6 @@ body {
     margin: 0;
 }
 
-/* ==================== ФУТЕР ==================== */
 .footer {
     padding: 40px 60px;
 }
@@ -968,7 +957,6 @@ body {
     opacity: 0.7;
 }
 
-/* ==================== АДАПТИВ: ПЛАНШЕТ (до 1194px) ==================== */
 @media (max-width: 1194px) {
     .header {
         padding: 12px 20px;
@@ -1089,7 +1077,6 @@ body {
     }
 }
 
-/* ==================== АДАПТИВ: МОБИЛЬНЫЙ (до 768px) ==================== */
 @media (max-width: 768px) {
     body {
         padding: 12px;
@@ -1271,16 +1258,16 @@ body {
 
 .why-grid {
     grid-template-columns: 1fr;
-    gap: 0; /* Убираем отступ между блоками */
+    gap: 0;
 }
 
 .why-item {
     padding: 30px 20px;
-    border-bottom: 3px dashed rgba(255, 255, 255, 0.6); /* Пунктирная линия */
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.6);
 }
 
 .why-item:last-child {
-    border-bottom: none; /* У последнего блока линии нет */
+    border-bottom: none;
 }
 
     .why-title {
@@ -1398,7 +1385,6 @@ body {
     }
 }
 
-/* ==================== АДАПТИВ: МАЛЕНЬКИЙ ЭКРАН (до 375px) ==================== */
 @media (max-width: 375px) {
     .hero {
         padding: 30px 16px;
