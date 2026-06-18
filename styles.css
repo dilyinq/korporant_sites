@@ -15,19 +15,7 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Encode Sans Expanded', sans-serif;
-    background: #1D1D1D;
-    min-height: 100vh;
-    padding: 20px;
 }
 * {
     margin: 0;
@@ -239,7 +227,7 @@ body {
 }
 
 .hero-title {
-    font-family: 'Advaken Sans', 'Playfair Display', serif;
+    font-family: 'Advaken Sans', sans-serif;
     font-size: 65px;
     font-weight: 400;
     color: white;
@@ -292,7 +280,7 @@ body {
 }
 
 .section-heading {
-    font-family: 'Advaken Sans', 'Playfair Display', serif;
+    font-family: 'Advaken Sans', sans-serif;
     font-size: 64px;
     font-weight: 400;
     text-align: center;
@@ -480,7 +468,7 @@ body {
 }
 
 .features-title {
-    font-family: 'Advaken Sans', 'Playfair Display', serif;
+    font-family: 'Advaken Sans', sans-serif;
     font-size: 56px;
     font-weight: 400;
     color: #FFFFFF;
@@ -749,7 +737,7 @@ body {
 }
 
 .cta-title {
-    font-family: 'Advaken Sans', 'Playfair Display', serif;
+    font-family: 'Advaken Sans', sans-serif;
     font-size: 52px;
     font-weight: 400;
     color: #FFFFFF;
